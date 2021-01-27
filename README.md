@@ -1,22 +1,22 @@
 # NewMobs V1.0 (Beta)
 
-#Permissions#
+#Permissions
 - Only OP
 
-#Mobs#
+#Mobs
 - Gorilla
 
-#Commands#
+#Commands
 - /nm help
 - /newmobs help
 
-#Finished#
+#Finished
 - [x] Item drop on death
 - [] Walking
 - [] Sound
 
-#Phar#
+#Phar
 
 
-#YouTube Video#
+#YouTube Video
 https://www.youtube.com/watch?v=LOK_dUimfLc

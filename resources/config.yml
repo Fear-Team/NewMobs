@@ -1,0 +1,19 @@
+---
+# Color Code: &
+
+Title: "&l&2NEWMOBS &r&7> "
+
+Success-Give-Message: "&7Successfully mob given!"
+Not-Found-Message: "&7Not found mob!"
+Not-Numeric-Message: "&7Enter a numeric value!"
+Full-Inventory-Message: "&7Your inventory is full!"
+
+Mobs-Item: "399,0"
+Mobs:
+  - Gorilla
+
+Gorilla:
+  Drops:
+    - "334,0,2"
+  Nametag: "Gorilla"
+...

@@ -12,8 +12,8 @@
 
 **Finished**
 - [x] Item drop on death
-[] Walking
-[] Sound
+- [] Walking
+- [] Sound
 
 **Phar**
 

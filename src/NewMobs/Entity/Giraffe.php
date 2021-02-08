@@ -7,7 +7,7 @@ use pocketmine\entity\Human;
 use pocketmine\entity\Skin;
 use pocketmine\item\Item;
 
-class Gorilla extends Human{
+class Giraffe extends Human{
 
     /** @var float */
     public $height = 1.8;
@@ -19,7 +19,7 @@ class Gorilla extends Human{
      * @param Skin $skin
      */
     public function setSkin(Skin $skin) : void{
-        parent::setSkin(new Skin($skin->getSkinId(), $skin->getSkinData(), '', 'geometry.gorilla', file_get_contents(NewMobs::getInstance()->getDataFolder() . "Mobs/Geometry/Gorilla.json")));
+        parent::setSkin(new Skin($skin->getSkinId(), $skin->getSkinData(), '', 'geometry.giraffe', file_get_contents(NewMobs::getInstance()->getDataFolder() . "Mobs/Geometry/Giraffe.json")));
     }
 
     /**
@@ -29,7 +29,7 @@ class Gorilla extends Human{
         $config = NewMobs::getInstance()->onSettings();
         $item = [];
 
-        foreach ($config->getNested("Gorilla.Drops") as $dropsitem){
+        foreach ($config->getNested("Giraffe.Drops") as $dropsitem){
             $explode = explode(",", $dropsitem);
             $id = $explode[0];
             $meta = $explode[1];

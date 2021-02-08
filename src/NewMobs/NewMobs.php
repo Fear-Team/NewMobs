@@ -3,7 +3,7 @@
 namespace NewMobs;
 
 use NewMobs\Commands\NewMobsCommand;
-use NewMobs\Entity\Gorilla;
+use NewMobs\Entity\{Giraffe, Gorilla, Monkey};
 use NewMobs\Listener\NewMobsEventListener;
 use pocketmine\entity\Entity;
 use pocketmine\plugin\PluginBase;
@@ -18,7 +18,7 @@ class NewMobs extends PluginBase{
     private static $instance;
 
     /** @var string[] */
-    private static $mobsdata = ["Gorilla"];
+    private static $mobsdata = ["Gorilla", "Monkey", "Giraffe"];
 
     public function onEnable(){
         $this->getLogger()->info("Plugin Enable - ByAlperenS (Fear-Team)");
@@ -29,12 +29,16 @@ class NewMobs extends PluginBase{
         @mkdir($this->getDataFolder());
         @mkdir($this->getDataFolder() . "Mobs/Geometry/");
         @mkdir($this->getDataFolder() . "Mobs/Texture/");
-        $this->saveResource("Mobs/Texture/Gorilla.png");
-        $this->saveResource("Mobs/Geometry/Gorilla.json");
+        foreach (self::$mobsdata as $mobs){
+            $this->saveResource("Mobs/Texture/{$mobs}.png");
+            $this->saveResource("Mobs/Geometry/{$mobs}.json");
+        }
         $this->saveResource("config.yml");
         $this->config = new Config($this->getDataFolder() . "config.yml", Config::YAML);
-        // Gorilla
+
         Entity::registerEntity(Gorilla::class, true);
+        Entity::registerEntity(Monkey::class, true);
+        Entity::registerEntity(Giraffe::class, true);
 
         if (!$this->config->get("Mobs")){
             $this->getLogger()->alert("Please do not delete the necessary parts in 'config.yml'");

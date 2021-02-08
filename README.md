@@ -5,6 +5,8 @@
 
 # Mobs
 - Gorilla
+- Monkey
+- Giraffe
 
 # Commands
 - /nm help

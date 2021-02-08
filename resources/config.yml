@@ -10,10 +10,19 @@ Full-Inventory-Message: "&7Your inventory is full!"
 
 Mobs-Item: "399,0"
 Mobs:
-  - Gorilla
+  - "Gorilla"
+  - "Monkey"
+  - "Giraffe"
 
 Gorilla:
   Drops:
     - "334,0,2"
-  Nametag: "Gorilla"
+
+Monkey:
+  Drops:
+    - "334,0,2"
+
+Giraffe:
+  Drops:
+    - "334,0,2"
 ...

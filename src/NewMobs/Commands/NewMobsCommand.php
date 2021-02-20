@@ -4,7 +4,6 @@ namespace NewMobs\Commands;
 
 use pocketmine\math\Vector3;
 use pocketmine\nbt\tag\{IntTag, StringTag, CompoundTag, ByteArrayTag};
-use NewMobs\Entity\TestCrate;
 use NewMobs\NewMobs;
 use NewMobs\Utils\Utils;
 use pocketmine\command\{PluginCommand, CommandSender};

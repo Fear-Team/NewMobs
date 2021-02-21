@@ -14,8 +14,8 @@
 
 # Finished
 - [x] Item drop on death
-- [] Walking
-- [] Sound
+- [ ] Walking
+- [ ] Sound
 
 # Phar
 https://poggit.pmmp.io/r/114198/NewMobs.phar

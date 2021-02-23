@@ -17,5 +17,5 @@
 
 # Finished
 - [x] Item drop on death
-- [ ] Walking
+- [x] Walking
 - [ ] Sound

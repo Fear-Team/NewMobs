@@ -16,9 +16,3 @@
 - [x] Item drop on death
 - [ ] Walking
 - [ ] Sound
-
-# Phar
-https://poggit.pmmp.io/r/114198/NewMobs.phar
-
-# YouTube Video
-https://www.youtube.com/watch?v=LOK_dUimfLc

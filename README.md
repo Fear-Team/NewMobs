@@ -1,4 +1,4 @@
-# NewMobs V1.0 (Beta)
+# NewMobs V1.2 (Beta)
 
 # Description
  Adds New Mobs To Game

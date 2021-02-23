@@ -1,0 +1,5 @@
+name: NewMobs
+main: FearTeam\NewMobs\Main
+api: 3.9.4
+author: ByAlperenS
+version: 1.0
